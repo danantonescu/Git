@@ -16,6 +16,8 @@ namespace Git_Test_App
 
             MakeSomething();
 
+            Console.WriteLine("Feature M.021");
+
             Console.Read();
         }
 
