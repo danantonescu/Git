@@ -16,8 +16,6 @@ namespace Git_Test_App
 
             MakeSomething();
 
-            Console.WriteLine("Feature F.01");
-
             Console.Read();
         }
 
@@ -26,6 +24,11 @@ namespace Git_Test_App
         {
             Console.WriteLine("Feature E.01");
         }
-        
+
+        private static void FeatureF()
+        {
+            Console.WriteLine("Feature F.02");
+        }
+
     }
 }
